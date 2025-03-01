@@ -1,0 +1,38 @@
+/* TabBar Component*/
+.TabBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95vw;
+    gap: 5px;
+    padding: 1vb;
+    border-radius: 30px;
+    background-color: #1a1a1a;
+}
+/* Tab Component*/
+.Tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    gap: 2vb;
+    padding: 1vb;
+    padding-left: 2vb;
+    border-radius: 30px;
+    background-color: #2a2a2a;
+}
+
+.x {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+.x:hover {
+    background-color: #3a3a3a;
+    animation-delay: 500ms;
+}

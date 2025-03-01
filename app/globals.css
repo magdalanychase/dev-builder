@@ -1,0 +1,10 @@
+/* Avatar Component*/
+.Avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: #3a3a3a;
+}
